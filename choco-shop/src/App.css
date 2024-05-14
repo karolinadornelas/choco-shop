@@ -1,12 +1,27 @@
 /*#ffdfe3*/
 @font-face {
+  font-family: 'minecraft';
+  src: url(./fonts/Minecraft.ttf);
+}
+
+@font-face {
   font-family: 'hello twins';
   src: url(./fonts/HelloTwinsDEMO.otf);
 }
 
+@font-face {
+  font-family: 'blueberry';
+  src: url(./fonts/Blueberry.ttf);
+}
+
+@font-face {
+  font-family: 'lemon milk';
+  src: url(./fonts/Lemon_Milk.otf);
+}
+
 .navbar a{
-  font-family: 'hello twins';
-  font-size: 20px;
+  font-family: 'minecraft';
+  font-size: 15px;
   color: #f3808d;
 }
 
@@ -46,7 +61,7 @@
   background-image: url(./assets/pink-sprite.png);
   background-size: 950px 580px;
   background-repeat: no-repeat;
-  font-family: 'hello twins';
+  font-family: 'minecraft';
 }
 
 .pink-class{
@@ -96,7 +111,7 @@
   display: flex;
   flex-direction: column;
   color:#f3808d;
-  font-size: 25px;
+  font-size: 20px;
   margin: -55px 0px 0px 115px;
   padding: 2px;
 
@@ -165,4 +180,13 @@
 .logo-main img{
   width: 450px;
 
+}
+
+footer{
+  background-color: #f57284;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: 'minecraft';
+  font-size: 15px;
 }

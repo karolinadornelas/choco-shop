@@ -8,6 +8,7 @@ import bonbonDot from "./assets/bonbon-duo.png";
 import bonbonCherry from "./assets/cherry-bun.png";
 import hotPink from "./assets/hot-pink-heart.png";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -61,6 +62,7 @@ function App() {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );
